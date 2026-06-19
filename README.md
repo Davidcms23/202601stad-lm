@@ -49,7 +49,7 @@ Por que usar o [conda-forge](https://conda-forge.org/docs/user/introduction/)?
 
 ## Alternativa
 
-Usando o [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)!
+Usando o [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
 
 ```bash
 micromamba create --name stad261 python=3.12 uv -c conda-forge
