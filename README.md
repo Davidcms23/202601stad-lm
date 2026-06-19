@@ -5,6 +5,16 @@
 Baixe o ambiente pronto [aqui](https://github.com/Davidcms23/202601stad-lm/blob/main/environment.yml)
 
 ```bash
+conda env create -f environment.yml
+```
+
+```bash
+conda activate stad261
+```
+
+Ou para renomear o ambiente
+
+```bash
 conda env create -f environment.yml -n nome_ambiente
 ```
 
