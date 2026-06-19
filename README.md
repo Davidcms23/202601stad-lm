@@ -1,6 +1,6 @@
 # STAD 2026 na disciplina de Modelos Lineares 
 
-# Como usar o conda
+# Iniciando o ambiente
 
 Baixe o ambiente pronto [aqui](https://github.com/Davidcms23/202601stad-lm/blob/main/environment.yml)
 
@@ -18,22 +18,27 @@ Ou para renomear o ambiente
 conda env create -f environment.yml -n nome_ambiente
 ```
 
+
+**Inicie o jupyter**
+
+```bash
+jupyter lab
+```
+
 ## Criando um ambiente
 
 ```bash
 conda create --name labest00 python=3.12
 ```
 
-**1. Ative o ambiente virtual**
-
 ```bash
 conda activate [nome_do_ambiente]
 ```
 
-**2. Instale os pacotes**
+**Instale os pacotes**
 
 ```bash
-conda install -c conda-forge pandas numpy scipy
+conda install -c conda-forge pandas numpy scipy statsmodels jupyterlab
 ```
 ou
 ```bash
@@ -42,7 +47,9 @@ conda install -c conda-forge --file requirements.txt
 
 Por que usar o [conda-forge](https://conda-forge.org/docs/user/introduction/)?
 
-Cultura livre? use o [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)!
+## Alternativa
+
+Usando o [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)!
 
 ```bash
 micromamba create --name stad261 python=3.12 uv -c conda-forge
@@ -55,12 +62,6 @@ uv pip install numpy pandas statsmodels scipy
 ```
 ```bash
 uv pip install jupyterlab
-```
-
-**3. Inicie o jupyter**
-
-```bash
-jupyter lab
 ```
 
 ### referência:
