@@ -28,7 +28,7 @@ jupyter lab
 ## Criando um ambiente
 
 ```bash
-conda create --name labest00 python=3.12
+conda create --name [nome_do_ambiente] python=3.12
 ```
 
 ```bash
